@@ -1,5 +1,5 @@
-<section class="main-slider style-1">
-    <div class="main-slider-carousel owl-carousel owl-theme">        
+<section class="main-slider">    
+    <div class="main-slider-carousel owl-carousel owl-theme">     
         @foreach ($slider as $item)       
         <div class="slide" style="background-image:url('{{ asset('images/slides/').'/'.$item->gambar}}'")>
             <div class="container">

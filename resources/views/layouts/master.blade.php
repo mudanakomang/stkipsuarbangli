@@ -39,25 +39,39 @@
 <div class="preloader"></div>
 <!--End Preloader -->  
 
-<header class="main-header">
+<header class="main-header-two">
     <!--Start Header Top Area -->
-    <section class="header-style-one">
-        <div class="container clearfix">
-            <div class="left-side float-left">
-                <ul class="top-info clearfix">
-                    
-                </ul>
+    <section class="header-style-two">
+            <div class="container clearfix">
+                <div class="left-side float-left">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="right-side float-right clearfix">
+                    <ul class="top-info login-info float-left">
+                        <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
+                        <li>/</li>
+                        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Register</a></li>
+                    </ul>
+                    <div class="search-box float-right ">
+                        <form method="post" action="index.html">
+                            <div class="form-group">
+                                <input type="search" name="search" placeholder="Search..." required>
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="right-side float-right">
-                <ul class="top-info">
-                    <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a><span class="border-right"></span></li>                   
-                </ul>
-            </div>
-        </div>
-    </section>
+        </section>
     <!--Start Header Top Area -->
     <!--Start header area-->
-    <header class="header-area">
+    {{-- <header class="header-area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-12">
@@ -102,10 +116,10 @@
                 </div>           
             </div>
         </div>
-    </header>
+    </header> --}}
     <!--End header area-->
     <!--Start mainmenu area-->
-    <section class="main-menu-one stricky">
+    <section class="main-menu-two stricky">
         @yield('menu')
     </section>
     <!--End mainmenu area-->

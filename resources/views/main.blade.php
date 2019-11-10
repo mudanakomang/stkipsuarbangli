@@ -91,158 +91,138 @@
 @endsection
 @section('posts')
 <section class="blog-section sp-five">
-        <div class="container">
-            <div class="sec-title-two pb-one text-center">
-                <h4>Berita/Agenda/Pengumuman Terbaru</h4>
-            </div>
-            <div class="title-text text-center">
+    <div class="container">
+        <div class="sec-title-two pb-one text-center">
+            <h4>Berita Terkini</h4>
+        </div>
+        <div class="title-text text-center">
                 {{-- <span>Then along come two they got nothing but their jeans made rich these days are all share them<br>with me oh baby said californ is the place you ought</span> --}}
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="blog-item-one">
-                        <div class="image-box">
-                            <figure><img src="images/blog/1.jpg" alt=""></figure>
-                            <div class="overlay">
-                                <a class="link-btn" href="blog-single.html">
-                                    <i class="fa fa-link"></i>
-                                </a>                                
-                            </div>
-                            <div class="date-box">
-                                <p>26TH, SEP, 2018</p>
+        </div>
+        <div class="row">
+            <article class="col-xl-4 col-lg-6 col-sm-12 filter-item Consulting Growth">
+                <div class="gallery-item">
+                    <div class="image-box"><img src="images/gallery/7.jpg" alt="">
+                        <div class="overlay">
+                            <a class="link-btn" href="courses-single.html">
+                                 <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="image-content">
+                        <div class="reting clearfix">
+                            <div class="float-left">
+                                <p><i class="fa fa-folder" aria-hidden="true"></i> Kategori</p> 
                             </div>
                         </div>
-                        <div class="image-text">
-                            <h6><a href="blog-single.html">Think of me once in awhile</a></h6>
+                        <div class="bottom-text">
+                            <h6><a href="courses-single.html">Computer Management System with Infomatics</a></h6>
                             <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
                             <div class="link-btn">
                                 <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </div>
                         </div>
+                        <div class="info clearfix">
+                            <div class="float-left"><p><i class="fa fa-calendar" aria-hidden="true"></i> 05 Mar 2018</p></div>
+                            <div class="float-right"><p><i class="fa fa-user" aria-hidden="true"></i> Admin</p></div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="blog-item-one">
-                        <div class="image-box">
-                            <figure><img src="images/blog/2.jpg" alt=""></figure>
-                            <div class="overlay">
-                                <a class="link-btn" href="blog-single.html">
-                                    <i class="fa fa-link"></i>
-                                </a>                                
-                            </div>
-                            <div class="date-box">
-                                <p>07TH, OCT, 2018</p>
+            </article>
+            <article class="col-xl-4 col-lg-6 col-sm-12 filter-item Consulting Growth">
+                <div class="gallery-item">
+                    <div class="image-box"><img src="images/gallery/7.jpg" alt="">
+                        <div class="overlay">
+                            <a class="link-btn" href="courses-single.html">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="image-content">
+                        <div class="reting clearfix">
+                            <div class="float-left">
+                                <p><i class="fa fa-folder" aria-hidden="true"></i> Kategori</p>
                             </div>
                         </div>
-                        <div class="image-text">
-                            <h6><a href="blog-single.html">A beautiful day for a neighbor</a></h6>
+                        <div class="bottom-text">
+                            <h6><a href="courses-single.html">Computer Management System with Infomatics</a></h6>
                             <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
                             <div class="link-btn">
                                 <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </div>
                         </div>
+                        <div class="info clearfix">
+                            <div class="float-left"><p><i class="fa fa-calendar" aria-hidden="true"></i> 05 Mar 2018</p></div>
+                            <div class="float-right"><p><i class="fa fa-user" aria-hidden="true"></i> Admin</p></div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="blog-item-one">
-                        <div class="image-box">
-                            <figure><img src="images/blog/3.jpg" alt=""></figure>
+            </article>
+            <article class="col-xl-4 col-lg-6 col-sm-12 filter-item Consulting Growth">
+                    <div class="gallery-item">
+                        <div class="image-box"><img src="images/gallery/7.jpg" alt="">
                             <div class="overlay">
-                                <a class="link-btn" href="blog-single.html">
+                                <a class="link-btn" href="courses-single.html">
                                     <i class="fa fa-link"></i>
-                                </a>                                
-                            </div>
-                            <div class="date-box">
-                                <p>19TH, NOV, 2018</p>
+                                </a>
                             </div>
                         </div>
-                        <div class="image-text">
-                            <h6><a href="blog-single.html">Travelled down the roadmania</a></h6>
-                            <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                            <div class="link-btn">
-                                <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                            </div>                        
+                        <div class="image-content">
+                            <div class="reting clearfix">
+                                <div class="float-left">
+                                    <p><i class="fa fa-folder" aria-hidden="true"></i> Kategori</p>
+                                </div>
+                            </div>
+                            <div class="bottom-text">
+                                <h6><a href="courses-single.html">Computer Management System with Infomatics</a></h6>
+                                <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
+                                <div class="link-btn">
+                                    <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="info clearfix">
+                            <div class="float-left"><p><i class="fa fa-calendar" aria-hidden="true"></i> 05 Mar 2018</p></div>
+                            <div class="float-right"><p><i class="fa fa-user" aria-hidden="true"></i> Admin</p></div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                    <div class="col-xl-4 col-md-6 col-sm-12">
-                        <div class="blog-item-one">
-                            <div class="image-box">
-                                <figure><img src="images/blog/1.jpg" alt=""></figure>
+            </article>  
+                <article class="col-xl-4 col-lg-6 col-sm-12 filter-item Consulting Growth">
+                        <div class="gallery-item">
+                            <div class="image-box"><img src="images/gallery/7.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="link-btn" href="blog-single.html">
+                                    <a class="link-btn" href="courses-single.html">
                                         <i class="fa fa-link"></i>
-                                    </a>                                
-                                </div>
-                                <div class="date-box">
-                                    <p>26TH, SEP, 2018</p>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="image-text">
-                                <h6><a href="blog-single.html">Think of me once in awhile</a></h6>
-                                <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                                <div class="link-btn">
-                                    <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            <div class="image-content">
+                                <div class="reting clearfix">
+                                    <div class="float-left">
+                                        <p><i class="fa fa-folder" aria-hidden="true"></i> Kategori</p>
+                                    </div>
+                                </div>
+                                <div class="bottom-text">
+                                    <h6><a href="courses-single.html">Computer Management System with Infomatics</a></h6>
+                                    <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
+                                    <div class="link-btn">
+                                        <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="info clearfix">
+                                    <div class="float-left"><p><i class="fa fa-calendar" aria-hidden="true"></i> 05 Mar 2018</p></div>
+                                    <div class="float-right"><p><i class="fa fa-user" aria-hidden="true"></i> Admin</p></div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-sm-12">
-                        <div class="blog-item-one">
-                            <div class="image-box">
-                                <figure><img src="images/blog/2.jpg" alt=""></figure>
-                                <div class="overlay">
-                                    <a class="link-btn" href="blog-single.html">
-                                        <i class="fa fa-link"></i>
-                                    </a>                                
-                                </div>
-                                <div class="date-box">
-                                    <p>07TH, OCT, 2018</p>
-                                </div>
-                            </div>
-                            <div class="image-text">
-                                <h6><a href="blog-single.html">A beautiful day for a neighbor</a></h6>
-                                <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                                <div class="link-btn">
-                                    <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-sm-12">
-                        <div class="blog-item-one">
-                            <div class="image-box">
-                                <figure><img src="images/blog/3.jpg" alt=""></figure>
-                                <div class="overlay">
-                                    <a class="link-btn" href="blog-single.html">
-                                        <i class="fa fa-link"></i>
-                                    </a>                                
-                                </div>
-                                <div class="date-box">
-                                    <p>19TH, NOV, 2018</p>
-                                </div>
-                            </div>
-                            <div class="image-text">
-                                <h6><a href="blog-single.html">Travelled down the roadmania</a></h6>
-                                <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                                <div class="link-btn">
-                                    <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                </div>                        
-                            </div>
-                        </div>
-                    </div>
+                    </article>         
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-md-12 col-sm-12 text-center">
+                <div class="link-btn">
+                    <a href="#" class="thm-btn bg-clr1">Semua Posting</a>
                 </div>
-            </div>
-            <div class="row">
-                    <div class="col-xl-12 col-md-12 col-sm-12 text-center">
-                     
-                            <div class="link-btn">
-                                <a href="#" class="thm-btn bg-clr1">Semua Posting</a>
-                            </div>                       
-                    </div>
             </div>
         </div>
+    </div>
 </section>
 @endsection
