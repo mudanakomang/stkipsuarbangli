@@ -233,7 +233,7 @@ button:focus {
 }
 
 .bg-three {
-	background: #f9be4d;
+	background: #40E0D0;
 }
 
 .bg-four {
@@ -370,7 +370,7 @@ button:focus {
 }
 
 .bootstrap-select.btn-group .dropdown-menu li a:hover {
-	background: #f36371;
+	background: #40E0D0;
 	color: #ffffff;
 	transition: all 500ms ease;
 }
@@ -486,7 +486,7 @@ button:focus {
 	margin: 0;
 	width: 100%;
 	z-index: 9999;
-	background: #f9be4d;
+	background: #40E0D0;
 	-webkit-animation-name: menu_sticky;
 	animation-name: menu_sticky;
 	-webkit-animation-duration: 0.60s;
@@ -515,7 +515,7 @@ button:focus {
 /*===Scroll To Top===*/
 
 .scroll-to-top {
-	background: #f36371;
+	background: #40E0D0;
 	border-radius: 50%;
 	bottom: 25px;
 	color: #333333;
@@ -581,7 +581,7 @@ button:focus {
 }
 
 .bg-clr1 {
-	background: #f36371;
+	background: #40E0D0;
 	color: #fff;
 }
 
@@ -600,7 +600,7 @@ button:focus {
 	height: 100%;
 	width: 100%;
 	z-index: -1;
-	background-color: #f36371;
+	background-color: #40E0D0;
 	transform: scale(0.5, 1);
 	transition: all 0.4s ease 0s;
 }
@@ -645,7 +645,7 @@ button:focus {
 }
 
 .top-info li i {
-	color: #f9be4d;
+	color: #40E0D0;
 	margin-right: 8px;
 }
 
@@ -682,7 +682,7 @@ button:focus {
 }
 
 .header-logo:before {
-	background: #fafafa none repeat scroll 0 0;
+	background: #ffffff none repeat scroll 0 0;
 	content: "";
 	height: 100%;
 	position: absolute;
@@ -719,7 +719,7 @@ button:focus {
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
-	border: 1px solid #ff2b58;
+	border: 1px solid #40E0D0;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -728,7 +728,7 @@ button:focus {
 /* .header-contact-info ul li .iocn-holder span {} */
 
 .header-contact-info ul li .iocn-holder span:before {
-	color: #ff2b58;
+	color: #40E0D0;
 }
 
 .header-contact-info ul li .text-holder {
@@ -771,7 +771,7 @@ button:focus {
 }
 
 .top-social-links li a:hover i {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 /*===Main Menu Area===*/
@@ -783,7 +783,7 @@ button:focus {
 
 .menu-style-one {
 	position: relative;
-	background: #f9be4d;
+	background: #40E0D0;
 }
 
 .menu-style-one .main-menu {
@@ -805,7 +805,7 @@ button:focus {
 	width: 60px;
 	height: 70px;
 	content: '';
-	background: #f9be4d;
+	background: #40E0D0;
 	transform: skewX(30deg);
 }
 
@@ -855,7 +855,7 @@ button:focus {
 	z-index: 100;
 	visibility: hidden;
 	opacity: 0;
-	border-top: 2px solid #f36371;
+	border-top: 2px solid #40E0D0;
 	box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
 	transition: all 500ms ease;
 }
@@ -896,7 +896,7 @@ button:focus {
 
 .main-menu .navigation>li>ul>li:hover>a {
 	color: #222222;
-	background-color: #f9be4d;
+	background-color: #40E0D0;
 }
 
 .main-menu .navbar-collapse>ul li.dropdown .dropdown-btn {
@@ -1014,7 +1014,7 @@ button:focus {
 }
 
 .right-side-menu:before {
-	background: #f9be4d none repeat scroll 0 0;
+	background: #40E0D0 none repeat scroll 0 0;
 	content: "";
 	height: 100%;
 	position: absolute;
@@ -1296,8 +1296,8 @@ Main Slider Banner
 
 .main-slider .btn-style-two:hover {
 	color: #ffffff;
-	border-color: #f36371;
-	background-color: #f36371;
+	border-color: #40E0D0;
+	background-color: #40E0D0;
 }
 
 .main-slider .content .title {
@@ -1430,7 +1430,7 @@ Main Slider Banner
 
 .main-slider .owl-nav .owl-prev:hover,
 .main-slider .owl-nav .owl-next:hover {
-	background: #f36371;
+	background: #40E0D0;
 	color: #ee2d50;
 }
 
@@ -1487,6 +1487,9 @@ Main Slider Banner
 .wellcome-left-colmun {
 	margin: 45px 70px 30px 0px;
 }
+.wellcome-left-colmun p{
+	text-align: justify;
+}
 
 .wellcome-left-colmun .text {
 	position: relative;
@@ -1499,17 +1502,18 @@ Main Slider Banner
 	top: 8px;
 	font-size: 60px;
 	line-height: 27px;
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .wellcome-left-colmun .text h6 {
-	padding-left: 90px;
+	padding-left: 0px;	
 	font-size: 17px;
 	line-height: 24px;
-	font-weight: 400;
-	font-style: italic;
+	font-weight: 450;
+	font-style: italic ;
 	font-family: 'Lora', serif;
 	color: #222;
+	text-align: center;
 }
 
 .wellcome-left-colmun .link-btn .thm-btn {
@@ -1642,8 +1646,8 @@ Main Slider Banner
 .gallery-filter li:hover span,
 .gallery-filter li.active span {
 	color: #ffffff;
-	background: #f36371;
-	border-color: #f36371;
+	background: #40E0D0;
+	border-color: #40E0D0;
 	transition: .5s ease;
 }
 
@@ -1723,7 +1727,7 @@ Main Slider Banner
 
 .gallery-item .overlay a:hover {
 	background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .gallery-item:hover .overlay a {
@@ -1784,7 +1788,7 @@ Main Slider Banner
 
 .gallery-item .reting i,
 .gallery-item .reting span {
-	color: #f36371;
+	color: #40E0D0;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 400;
@@ -1792,7 +1796,7 @@ Main Slider Banner
 }
 
 .gallery-item .reting a {
-	color: #f36371;
+	color: #40E0D0;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 500;
@@ -1817,7 +1821,7 @@ Main Slider Banner
 }
 
 .gallery-item .bottom-text h6 a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: .5s ease;
 }
 
@@ -1879,12 +1883,12 @@ Main Slider Banner
 }
 
 .slide-item.one .service-item-one:hover {
-	border-color: #f36371;
+	border-color: #40E0D0;
 	transition: all 500ms ease;
 }
 
 .slide-item.one .service-item-one .link-btn a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -1919,7 +1923,7 @@ Main Slider Banner
 }
 
 .service-item-one .bg-red {
-	background: #f36371;
+	background: #40E0D0;
 }
 
 .service-item-one .bg-yellow {
@@ -1959,7 +1963,7 @@ Main Slider Banner
 }
 
 .service-item-one h6 a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -2050,7 +2054,7 @@ Main Slider Banner
 	height: 100%;
 	content: '';
 	z-index: 1;
-	background: rgba(49,176,213, 0.5);
+	/* background: rgba(49,176,213, 0.5); */
 	border-radius: 0%;
 	transform: scale(0.0);
 	transition: all 500ms ease;
@@ -2070,7 +2074,7 @@ Main Slider Banner
 }
 
 .team-item-one:hover .image-text h6 {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -2091,7 +2095,7 @@ Main Slider Banner
 }
 
 .team-item-one .image-text li:hover i {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -2134,8 +2138,8 @@ Main Slider Banner
 	width: 6px;
 	height: 6px;
 	margin: 5px;
-	background: #f36371;
-	border: 1px solid #f36371;
+	background: #40E0D0;
+	border: 1px solid #40E0D0;
 	display: block;
 	border-radius: 0px;
 	transition: all 500ms ease;
@@ -2213,7 +2217,7 @@ Main Slider Banner
 
 .blog-item-one .overlay a:hover {
 	background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .blog-item-one:hover .overlay a {
@@ -2294,7 +2298,7 @@ Main Slider Banner
 }
 
 .blog-item-one .image-text h6 a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -2313,7 +2317,7 @@ Main Slider Banner
 }
 
 .blog-item-one .image-text .link-btn a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -2387,7 +2391,7 @@ Main Slider Banner
 
 .footer-about-widget .social-links li:hover i {
 	color: #f6f6f6;
-	background: #f36371;
+	background: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -2399,13 +2403,13 @@ Main Slider Banner
 }
 
 .footer-menu-link li a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
 .footer-menu-link li i {
 	margin-right: 8px;
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .footer-blog {
@@ -2520,7 +2524,7 @@ Main Slider Banner
 }
 
 .header-style-two .social-links li:hover a {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .header-style-two .login-info {
@@ -2673,7 +2677,7 @@ Main Slider Banner
 }
 
 .service-item-two:hover h6 a {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -2700,7 +2704,7 @@ Main Slider Banner
 }
 
 .service-item-two .link-btn a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -2792,7 +2796,7 @@ Main Slider Banner
 }
 
 .service-item-one.two h6 a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -2802,7 +2806,7 @@ Main Slider Banner
 }
 
 .service-item-one.two .link-btn a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -3009,7 +3013,7 @@ Main Slider Banner
 
 .event-item-one .overlay a:hover {
 	background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .event-item-one:hover .overlay a {
@@ -3048,7 +3052,7 @@ Main Slider Banner
 	height: 100px;
 	padding: 10px 12px;
 	text-align: center;
-	background: #f36371;
+	background: #40E0D0;
 	z-index: 8;
 }
 
@@ -3095,7 +3099,7 @@ Main Slider Banner
 }
 
 .event-item-one h6 a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -3281,7 +3285,7 @@ Main Slider Banner
 }
 
 .footer-newsletter .form-group input:focus {
-	border-color: #f36371;
+	border-color: #40E0D0;
 }
 
 /*===Footer Bottom Style Two===*/
@@ -3336,7 +3340,7 @@ Main Slider Banner
 
 .header-style-three .top-info li i {
 	font-size: 13px;
-	color: #f9be4d;
+	color: #40E0D0;
 	line-height: 27px;
 }
 
@@ -3351,7 +3355,7 @@ Main Slider Banner
 }
 
 .header-style-three .social-links li:hover i {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .header-style-three .social-links li:last-child i {
@@ -3539,7 +3543,7 @@ Main Slider Banner
 
 .course-item-one .overlay a:hover {
 	background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .course-item-one:hover .overlay a {
@@ -3586,7 +3590,7 @@ Main Slider Banner
 }
 
 .course-item-one .image-text h6 a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -3600,7 +3604,7 @@ Main Slider Banner
 }
 
 .image-text .ratting-star li i {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .course-item-one .course-info {
@@ -3729,7 +3733,7 @@ Main Slider Banner
 
 .app-content .app-list li i {
 	font-size: 14px;
-	color: #f36371;
+	color: #40E0D0;
 	margin-right: 10px;
 }
 
@@ -3748,7 +3752,7 @@ Main Slider Banner
 
 .app-content .download-link .thm-btn.bg-clr2 {
 	background: #ffffff;
-	border: 1px solid #f36371;
+	border: 1px solid #40E0D0;
 }
 
 /*===Footer Top One===*/
@@ -3802,7 +3806,7 @@ Main Slider Banner
 
 .footer-area-two .social-links li:hover i {
 	color: #f6f6f6;
-	background: #f36371;
+	background: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -3846,7 +3850,7 @@ Main Slider Banner
 	font-size: 15px;
 	line-height: 26px;
 	font-weight: 700;
-	color: #f36371;
+	color: #40E0D0;
 	margin-left: 15px;
 	padding: 17px 0px;
 	display: inline-block;
@@ -3861,7 +3865,7 @@ Main Slider Banner
 }
 
 .page-title .title-manu li a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -3963,7 +3967,7 @@ Main Slider Banner
 	width: 50px;
 	height: 45px;
 	color: #fff;
-	background: #f36371;
+	background: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -4130,7 +4134,7 @@ Main Slider Banner
 	font-size: 15px;
 	line-height: 26px;
 	font-weight: 700;
-	color: #f36371;
+	color: #40E0D0;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -4192,8 +4196,8 @@ Main Slider Banner
 }
 
 .side-menu .side-bar-menu li:hover span {
-	background: #f36371;
-	border-color: #f36371;
+	background: #40E0D0;
+	border-color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -4228,7 +4232,7 @@ Main Slider Banner
 }
 
 .side-menu .side-bar-menu li a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -4329,7 +4333,7 @@ Main Slider Banner
 }
 
 .image-content .courses-bottom .ratting-star li i {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .course-features table {
@@ -4404,7 +4408,7 @@ Main Slider Banner
 }
 
 .text-area-two .list-menu li i {
-	color: #f36371;
+	color: #40E0D0;
 	font-size: 13px;
 	margin-right: 10px;
 }
@@ -4420,7 +4424,7 @@ Main Slider Banner
 }
 
 .text-area-three .list-menu li i {
-	color: #f36371;
+	color: #40E0D0;
 	font-size: 13px;
 	margin-right: 10px;
 }
@@ -4457,7 +4461,7 @@ Main Slider Banner
 }
 
 .course-instructor .social-links li:hover i {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .course-instructor .text {
@@ -4528,7 +4532,7 @@ Main Slider Banner
 }
 
 .side-bar-blog .item .image-text p:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -4576,8 +4580,8 @@ Main Slider Banner
 
 .item-eight .tag-list li:hover a {
 	color: #ffffff;
-	background: #f36371;
-	border-color: #f36371;
+	background: #40E0D0;
+	border-color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -4603,7 +4607,7 @@ Main Slider Banner
 
 .event-text .right-text li .bg-clr2 {
 	background: none;
-	color: #f36371;
+	color: #40E0D0;
 	border: 1px solid #aeaeae;
 }
 
@@ -4679,7 +4683,7 @@ Main Slider Banner
 
 .item-text-three .organize-list li i {
 	font-size: 13px;
-	color: #f36371;
+	color: #40E0D0;
 	margin-right: 5px;
 	line-height: 35px;
 }
@@ -4701,7 +4705,7 @@ Main Slider Banner
 
 .item-text-four .location-info i:before {
 	font-size: 40px;
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .item-text-four .location-info p {
@@ -4781,7 +4785,7 @@ Main Slider Banner
 }
 
 .login-register .forgot a {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .login-register li a {
@@ -4790,7 +4794,7 @@ Main Slider Banner
 }
 
 .login-register li:hover a {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -4882,7 +4886,7 @@ Main Slider Banner
 .shop-item-one .price-rate .pres-rate {
 	font-size: 20px;
 	line-height: 27px;
-	color: #f36371;
+	color: #40E0D0;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -4981,7 +4985,7 @@ Main Slider Banner
 
 .single-product-one .link-btn-three li.icon i {
 	font-size: 12px;
-	color: #f36371;
+	color: #40E0D0;
 	width: 50px;
 	height: 50px;
 	text-align: center;
@@ -4994,8 +4998,8 @@ Main Slider Banner
 
 .single-product-one .link-btn-three li.icon:hover i {
 	color: #ffffff;
-	border-color: #f36371;
-	background: #f36371;
+	border-color: #40E0D0;
+	background: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -5271,7 +5275,7 @@ Main Slider Banner
 }
 
 .apply-coupon .social-links li:hover i {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -5304,7 +5308,7 @@ Main Slider Banner
 }
 
 .apply-coupon .apply-right .totals-table h6 span.color-text {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 /*===Testmonial Area===*/
@@ -5345,7 +5349,7 @@ Main Slider Banner
 
 .testmonial-area .single-item h6 {
 	font-size: 15px;
-	color: #f36371;
+	color: #40E0D0;
 	line-height: 27px;
 	font-weight: 400;
 	padding-top: 10px;
@@ -5373,7 +5377,7 @@ Main Slider Banner
 }
 
 .media-links .tag-list a {
-	color: #f36371;
+	color: #40E0D0;
 	font-size: 16px;
 }
 
@@ -5387,7 +5391,7 @@ Main Slider Banner
 }
 
 .media-links .social-links li:hover a {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
@@ -5474,7 +5478,7 @@ Main Slider Banner
 	font-weight: 400;
 	line-height: 22px;
 	color: #ffffff;
-	background: #f36371;
+	background: #40E0D0;
 	display: inline-block;
 	padding: 5px 20px;
 	font-family: 'Montserrat', sans-serif;
@@ -5550,7 +5554,7 @@ Main Slider Banner
 }
 
 .checkout-content .top-content a {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .billing-details {
@@ -5667,12 +5671,12 @@ Main Slider Banner
 }
 
 .your-order .table tbody td.text p a:hover {
-	color: #f36371;
+	color: #40E0D0;
 	transition: all 500ms ease;
 }
 
 .your-order .table tbody td.total.amount {
-	color: #f36371;
+	color: #40E0D0;
 }
 
 .your-order .table tbody td.total {
@@ -5732,7 +5736,7 @@ Main Slider Banner
 	color: #fff;
 	font-weight: 400;
 	text-align: center;
-	background: #f36371;
+	background: #40E0D0;
 	padding: 5px 35px;
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;

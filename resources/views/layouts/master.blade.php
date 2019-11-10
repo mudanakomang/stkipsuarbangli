@@ -158,44 +158,14 @@
     </div>
 </section> --}}
 <!--End Callout Section-->
-@yield('fakultas')
-
 <!--Start Wellcome Section-->
-<section class="welcome-section sp-two">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-7 col-lg-12 col-sm-12">
-                <div class="wellcome-left-colmun">
-                    <div class="sec-title pb-one">
-                        <h4>Welcome to LMS</h4>
-                    </div>
-                    <div class="content-text">
-                        <div class="text">
-                            <h1>20</h1>
-                            <h6>Years of Excellence in Learning<br>Management System</h6>
-                        </div>
-                        <p>These days are all share them with me oh baby said Californy till the one day when the lady met this fellow and they knew it was much more than a hunch making your way in the world today takes everything you have got taking a break from all your worries till the one day when the lady met this fellow and hunch.</p>
-                        <p>Till the one day when the lady met this fellow and they knew it was much more than a hunch an making your way in the world today takes everything you've got taking a break from all your way worries sure would help a lot.</p>
-                        <div class="link-btn">
-                            <a href="#" class="thm-btn bg-clr1">Read More</a>
-                        </div>
-                    </div>
-                </div>                    
-            </div>
-            <div class="col-xl-5 col-lg-12 col-xs-12">
-                <div class="image-box">
-                    <figure>
-                        <img src="images/services/1.jpg" alt="">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@yield('about')
 <!--End Wellcome Section-->
 
+@yield('fakultas')
+
 <!--Start Course Search Section-->
-<section class="course-search">
+{{-- <section class="course-search">
     <div class="container">
         <div class="course-search-bg" style="background: url(images/resources/course-search-bg.jpg);">
             <div class="row">            
@@ -240,11 +210,11 @@
             </div>                
         </div>
     </div>
-</section>
+</section> --}}
 <!--End Course Search Section-->
 
 <!--Gallery Section-->
-<section class="gallery-section sp-three">
+{{-- <section class="gallery-section sp-three">
     <div class="container">
         <div class="title-area clearfix">
             <div class="sec-title-one pb-one">
@@ -507,11 +477,11 @@
             </article>
         </div>
     </div>
-</section>
+</section> --}}
 <!--End Gallery Section-->
 
 <!--Service Section-->
-<section class="service-section sp-one" style="background-image: url(images/services/bg.jpg);">
+{{-- <section class="service-section sp-one" style="background-image: url(images/services/bg.jpg);">
     <div class="container">
         <div class="sec-title-two pb-one text-center">
             <h4>Our Awesome Services</h4>
@@ -570,7 +540,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!--Service Section-->
 
 <!--Team Section-->
@@ -578,7 +548,7 @@
 <!--Team Section-->
 
 <!--testimonials Section-->
-<section class="testimonials-section bg-two">
+{{-- <section class="testimonials-section bg-two">
     <div class="container">
         <div class="row">
             <div class="col-xl-4 col-lg-12 col-xs-12">
@@ -614,92 +584,15 @@
             </div>
         </div>                    
     </div>
-</section>
+</section> --}}
 <!--testimonials Section-->
 
 <!--Blog Section-->
-<section class="blog-section sp-three">
-    <div class="container">
-        <div class="sec-title-two pb-one text-center">
-            <h4>Latest Blog</h4>
-        </div>
-        <div class="title-text text-center">
-            <span>Then along come two they got nothing but their jeans made rich these days are all share them<br>with me oh baby said californ is the place you ought</span>
-        </div>
-        <div class="row">
-            <div class="col-xl-4 col-md-6 col-sm-12">
-                <div class="blog-item-one">
-                    <div class="image-box">
-                        <figure><img src="images/blog/1.jpg" alt=""></figure>
-                        <div class="overlay">
-                            <a class="link-btn" href="blog-single.html">
-                                <i class="fa fa-link"></i>
-                            </a>                                
-                        </div>
-                        <div class="date-box">
-                            <p>26TH, SEP, 2018</p>
-                        </div>
-                    </div>
-                    <div class="image-text">
-                        <h6><a href="blog-single.html">Think of me once in awhile</a></h6>
-                        <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                        <div class="link-btn">
-                            <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 col-sm-12">
-                <div class="blog-item-one">
-                    <div class="image-box">
-                        <figure><img src="images/blog/2.jpg" alt=""></figure>
-                        <div class="overlay">
-                            <a class="link-btn" href="blog-single.html">
-                                <i class="fa fa-link"></i>
-                            </a>                                
-                        </div>
-                        <div class="date-box">
-                            <p>07TH, OCT, 2018</p>
-                        </div>
-                    </div>
-                    <div class="image-text">
-                        <h6><a href="blog-single.html">A beautiful day for a neighbor</a></h6>
-                        <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                        <div class="link-btn">
-                            <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 col-sm-12">
-                <div class="blog-item-one">
-                    <div class="image-box">
-                        <figure><img src="images/blog/3.jpg" alt=""></figure>
-                        <div class="overlay">
-                            <a class="link-btn" href="blog-single.html">
-                                <i class="fa fa-link"></i>
-                            </a>                                
-                        </div>
-                        <div class="date-box">
-                            <p>19TH, NOV, 2018</p>
-                        </div>
-                    </div>
-                    <div class="image-text">
-                        <h6><a href="blog-single.html">Travelled down the roadmania</a></h6>
-                        <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                        <div class="link-btn">
-                            <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@yield('posts')
 <!--Blog Section-->
 
 <!--Start Brand area-->
-<section class="brand-area bg-two sp-five">
+{{-- <section class="brand-area bg-two sp-five">
     <div class="container">
         <div class="brand">
             <!--Start single item-->
@@ -743,126 +636,10 @@
             <!--End single item-->
         </div>
     </div>
-</section>
+</section> --}}
 <!--End Brand area-->
 
-<!--main-footer-->
-<footer class="main-footer bg-four sp-one">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-lg-6 col-sm-12 footer-colmun">
-                <div class="footer-clomun footer-about-widget">
-                    <div class="footer-logo">
-                        <figure>
-                            <a href="index.html"><img src="images/logo-2.png" alt=""></a>
-                        </figure>
-                    </div>
-                    <p>These days are all share them with me oh said Cali forny till the one day when the making your way in the world  and when the odds are against him and their dangers work to do.</p>
-                    <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xl-2 col-lg-6 col-sm-12 footer-colmun">
-                <div class="footer-clomun footer-menu-link">
-                    <div class="sec-title-one pb-one">
-                        <h6>Archives</h6>
-                    </div>                            
-                    <ul>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Janaury 2018</a></li>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>February 2018</a></li>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>March 2018</a></li>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>April 2018</a></li>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>May 2018</a></li>
-                    </ul>
-                </div>
-            </div>                    
-            <div class="col-xl-3 col-lg-6 col-sm-12 footer-colmun">
-                <div class="footer-clomun footer-blog">
-                    <div class="sec-title-one pb-one">
-                        <h6>Twitter Feeds</h6>
-                    </div>                            
-                    <div class="item">
-                        <div class="icon-box">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </div>
-                        <div class="icon-text">
-                            <p><a href="#">HJDUYDYTSBS</a> share is the baby said Californy.</p>
-                            <span><i class="fa fa-calendar" aria-hidden="true"></i>5 min ago</span>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="icon-box">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </div>
-                        <div class="icon-text">
-                            <p><a href="#">HJDUYDYTSBS</a> share is the baby said Californy.</p>
-                            <span><i class="fa fa-calendar" aria-hidden="true"></i>3 days ago</span>
-                        </div>
-                    </div>
-                </div>                                    
-            </div>
-            <div class="col-xl-3 col-lg-6 col-sm-12 footer-colmun">
-                <div class="footer-clomun footer-gallery-widget">
-                    <div class="sec-title-one pb-one">
-                        <h6>Image Gallery</h6>
-                    </div>
-                    <div class="innar-box">
-                        <div class="row">                        
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/1.jpg" class="img-popup"><img src="images/gallery/1.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/2.jpg" class="img-popup"><img src="images/gallery/2.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/3.jpg" class="img-popup"><img src="images/gallery/3.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/4.jpg" class="img-popup"><img src="images/gallery/4.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a href="#"><img src="images/gallery/5.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/6.jpg" class="img-popup"><img src="images/gallery/6.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                        </div>                            
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </div>   
-</footer>
-<!--End main-footer--> 
-
-
-<!--Start Footer Bottom--> 
-<section class="footer-bottom bg-three">
-    <div class="container">
-        <div class="bottom-text text-center">
-            <p>&copy; Copyrights 2018 Murcia. All Rights Reserved</p>
-        </div>
-    </div>
-</section>
-<!--End Footer Bottom-->
-
+@include('layouts.footer')
 
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html">
@@ -908,10 +685,10 @@
 <!-- jQuery ui js -->
 <script src="{{ asset('assets/jquery-ui-1.11.4/jquery-ui.js') }}"></script>
 
-
 <!-- thm custom script -->
 <script src="{{  asset('js/custom.js') }}"></script>
 
+@yield('script')
 
 </div>
 </body>

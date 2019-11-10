@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('main');
+    $slides=\App\Slider::where('status','=','1')->orderBy('created_at','desc')->limit(3)->get();
+    return view('main',['slider'=>$slides]);
 });
 
 Auth::routes();
