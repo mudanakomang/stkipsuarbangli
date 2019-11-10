@@ -1056,7 +1056,7 @@ Main Slider Banner
 .main-slider .slide:before {
 	position: absolute;
 	content: '';
-	background: rgba(34, 34, 34, 0.78);
+	background: rgba(34, 34, 34, 0.00);
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -1072,13 +1072,24 @@ Main Slider Banner
 
 .main-slider .slide {
 	position: relative;
-	padding: 220px 0px;
+	padding:220px 0px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-align: center;
 }
-
+@media  only screen and (max-width: 767px) {
+	.main-slider .slide {
+		position: relative;
+		padding: 25px 0px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+		text-align: center;
+	}
+  }
+ 
+  
 .main-slider .image {
 	position: relative;
 	color: #ffffff;
@@ -1117,7 +1128,7 @@ Main Slider Banner
 
 .main-slider h2 {
 	position: relative;
-	color: #ffffff;
+	color: #f9be4d;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.1em;
