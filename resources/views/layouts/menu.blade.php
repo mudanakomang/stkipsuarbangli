@@ -24,9 +24,9 @@
                                 <li><a href="home-three.html">Home Three</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#">About Us</a>
+                        <li class="dropdown"><a href="#">Profil</a>
                             <ul>
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="{{ url('visi-misi') }}">Visi & Misi</a></li>
                                 <li><a href="community-forum.html">Community</a></li>
                                 <li><a href="login.html">Login & Register</a></li>
                             </ul>

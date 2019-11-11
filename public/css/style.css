@@ -1700,13 +1700,13 @@ Main Slider Banner
 	-webkit-transform: perspective(400px) rotateX(-90deg);
 	-ms-transform: perspective(400px) rotateX(-90deg);
 	transform: perspective(400px) rotateX(-90deg);
-	-webkit-transform-origin: top;
-	-ms-transform-origin: top;
-	transform-origin: top;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .gallery-item:hover .image-box:before {
@@ -3833,8 +3833,8 @@ Main Slider Banner
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
 	padding: 200px 0px 130px;
-	top: -70px;
-	margin-bottom: -70px;
+	/* top: -70px;
+	margin-bottom: -70px; */
 }
 
 .page-title:before {

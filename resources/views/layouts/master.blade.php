@@ -13,6 +13,9 @@
 	<!-- Responsive stylesheet-->
 	<link rel="stylesheet" href="{{  asset('css/responsive.css') }}">
     <!-- Favicon -->
+    <link rel="stylesheet" href="{{ asset('css/tagsinput.css') }} "> 
+
+
     <link rel="apple-touch-icon" sizes="57x57" href="{{  asset('images/favicon/apple-icon-57x57.png') }}">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('images/favicon/apple-icon-60x60.png') }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{  asset('images/favicon/apple-icon-72x72.png') }}">
@@ -120,7 +123,7 @@
     <!--End header area-->
     <!--Start mainmenu area-->
     <section class="main-menu-two stricky">
-        @yield('menu')
+        @include('layouts.menu')
     </section>
     <!--End mainmenu area-->
 </header>
@@ -173,9 +176,9 @@
 </section> --}}
 <!--End Callout Section-->
 <!--Start Wellcome Section-->
-@yield('about')
+@yield('header-content')
 <!--End Wellcome Section-->
-
+@yield('content')
 @yield('fakultas')
 
 <!--Start Course Search Section-->
@@ -701,6 +704,8 @@
 
 <!-- thm custom script -->
 <script src="{{  asset('js/custom.js') }}"></script>
+<script src="{{  asset('js/tagsinput.js') }}"></script>
+
 
 @yield('script')
 
