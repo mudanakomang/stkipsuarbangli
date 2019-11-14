@@ -17,10 +17,27 @@ Route::get('/', function () {
 
     return view('main',['slider'=>$slides,'posts'=>$posts]);
 });
-Route::get('/visi-misi',function(){
-    return view('visi_misi');
-});
 
+Route::group(['prefix' => 'profil'], function () {
+    Route::get('visi-misi', function () {
+        return view('profil.visi_misi');
+    });
+    Route::get('mengapa-stkipsuar', function () {
+        return view('profil.profil_kampus');     
+    });
+    Route::get('profil-ketua-yayasan', function () {
+       return view('profil.ketua_yayasan'); 
+    });
+    Route::get('profil-pejabat-struktural', function () {
+        return view('profil.pejabat_struktural');
+    });
+    Route::get('kampus-stkip', function () {
+        return view('profil.kampus_stkip');
+    });
+    Route::get('vido-profil', function () {
+        return view('profil.video_profil');
+    });
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

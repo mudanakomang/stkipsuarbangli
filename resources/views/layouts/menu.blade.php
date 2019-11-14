@@ -21,9 +21,11 @@
                         </li>
                         <li class="dropdown"><a href="#">Profil</a>
                             <ul>
-                                <li><a href="{{ url('visi-misi') }}">Visi & Misi</a></li>
-                                <li><a href="community-forum.html">Community</a></li>
-                                <li><a href="login.html">Login & Register</a></li>
+                                <li><a href="{{ url('profil/mengapa-stkipsuar') }}">Mengapa STKIP Suar Bangli</a></li>
+                                <li><a href="{{ url('profil/visi-misi') }}">Visi & Misi</a></li>
+                                <li><a href="{{ url('profil/profil-ketua-yayasan') }}">Profil Ketua Yayasan</a></li>
+                                <li><a href="{{ url('profil/profil-pejabat-struktural') }}">Profil Pejabat Struktural</a></li>
+                                <li><a href="{{ url('profil/kampus-stkip') }}">Kampus STKIP Suar Bangli</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"><a href="#">Service</a>

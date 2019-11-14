@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('slider')
-<section class="page-title" style="background: url(images/resources/page-title.jpg);">
+<section class="page-title">
     <div class="container clearfix">
         <div class="title pull-left">
             <h2>VISI MISI</h2>

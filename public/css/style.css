@@ -2172,9 +2172,11 @@ Main Slider Banner
 }
 
 .blog-item-one .image-box {
+	width: 90%;
+	margin: auto;
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .blog-item-one .image-box:before {
@@ -2196,7 +2198,7 @@ Main Slider Banner
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
-	background-color: rgba(0, 0, 0, 0.75);
+	/* background-color: rgba(0, 0, 0, 0.75); */
 }
 
 .blog-item-one:hover .image-box:before {
@@ -2296,8 +2298,12 @@ Main Slider Banner
 	display: inline-block;
 	padding: 15px 0px 10px;
 	transition: all 500ms ease;
+	
 }
 
+.blog-item-one .image-text p{
+	text-align: justify;
+}
 .blog-item-one .image-text h6 a {
 	font-size: 18px;
 	font-weight: 700;
@@ -3832,7 +3838,7 @@ Main Slider Banner
 	z-index: 1;
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
-	padding: 200px 0px 130px;
+	padding: 100px 0px 80px;
 	/* top: -70px;
 	margin-bottom: -70px; */
 }
