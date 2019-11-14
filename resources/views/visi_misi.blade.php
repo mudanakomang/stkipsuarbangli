@@ -14,7 +14,7 @@
 </section>
 @endsection
 @section('content')
-<section class="welcome-section sp-two">
+<section class="welcome-section sp-five">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-sm-12">

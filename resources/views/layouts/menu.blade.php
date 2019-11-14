@@ -16,13 +16,8 @@
                 </div>
                 <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                     <ul class="navigation clearfix">
-                        <li class="current dropdown">
-                            <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-                            <ul>
-                                <li><a href="index.html">Home One</a></li>
-                                <li><a href="home-two.html">Home Two</a></li>
-                                <li><a href="home-three.html">Home Three</a></li>
-                            </ul>
+                        <li>
+                            <a href="{{ url('/') }}"><i class="fa fa-home" aria-hidden="true"></i>Home</a>                            
                         </li>
                         <li class="dropdown"><a href="#">Profil</a>
                             <ul>
