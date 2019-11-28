@@ -4,16 +4,17 @@
                 <div class="col-xl-3 col-md-6 col-sm-12 footer-colmun">
                     <div class="footer-about-info cloumn">
                         <div class="sec-title-three pb-one">
-                            <h6>About Murcia</h6>
+                            <h6>STKIP SUAR BANGLI</h6>
                         </div>
-                        <p>These days are all share them with me oh baby said Californy till the one day when the lady met    making your way in the world.</p>
+                        {{-- <p>These days are all share them with me oh baby said Californy till the one day when the lady met    making your way in the world.</p> --}}
                         <ul>
                             <li>
                                 <div class="iocn-holder">
                                     <span class="flaticon-home-button"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <p>102D, Texico System, Lakeview,<br>New Texas, United States</p>
+                                    <p><a href="{{ url('https://goo.gl/maps/v4AuQSP9yrVy75vH6') }}">Jln. Brigjen Ngurah Rai No.55 Gedung Barat,
+                                       LC Subak Aya Bangli, 80613</a></p>
                                 </div>
                             </li>
                             <li>
@@ -21,7 +22,7 @@
                                     <span class="flaticon-phone-call"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <p>(1-8016-7890-1990-168)<br>(1-8413-7890-1990-170)</p>
+                                    <p><a href="{{ url('tel:03665501125') }}">03665501125</a></p>
                                 </div>
                             </li>
                             <li>
@@ -29,13 +30,13 @@
                                     <span class="flaticon-message"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <p><a href="#">info@murcialearning.com</a><br><a href="#">support@murcia.com</a></p>
+                                    <p><a href="{{  url('mailto:stkipsuar.bangli@yahoo.com') }}">stkipsuar.bangli@yahoo.com</a></p>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-2 col-md-6 col-sm-12 footer-colmun">
+                {{-- <div class="col-xl-2 col-md-6 col-sm-12 footer-colmun">
                     <div class="footer-menu-link two cloumn">
                         <div class="sec-title-three pb-one">
                             <h6>Explore Now</h6>
@@ -124,7 +125,7 @@
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>   
     </footer>
@@ -135,12 +136,15 @@
     <section class="footer-bottom bg-five">
         <div class="container clearfix">
             <div class="bottom-text two float-left">
-                <p>&copy; Copyrights 2018 Murcia. All Rights Reserved</p>
+                <p>&copy; Copyright {{ \Carbon\Carbon::now()->format('Y') }} STKIP Suar Bangli</p>
             </div>
-            <ul class="footer-menu float-right">
+            {{-- <ul class="footer-menu float-right">
                 <li><a href="#">Support</a></li>
                 <li><a href="#">Terms of use</a></li>
                 <li><a href="#">Privacy Policy</a></li>
-            </ul>
+            </ul> --}}
         </div>
     </section>
+    <div class="scroll-to-top scroll-to-target" data-target="html">
+            <span class="fa fa-angle-up"></span>
+    </div>

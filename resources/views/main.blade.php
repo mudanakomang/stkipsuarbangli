@@ -25,7 +25,7 @@
             <div class="col-xl-5 col-lg-12 col-xs-12">
                 <div class="image-box">
                     <figure>
-                        <img src="{{ asset('images/about.jpg')}}"" alt="">
+                        <img src="{{ asset('images/about.jpg')}}" alt="">
                     </figure>
                 </div>
             </div>
@@ -93,16 +93,15 @@
         <div class="sec-title-two pb-one text-center">
             <h4>Berita Terkini</h4>
         </div>
-        <div class="title-text text-center">
-                {{-- <span>Then along come two they got nothing but their jeans made rich these days are all share them<br>with me oh baby said californ is the place you ought</span> --}}
+        <div class="title-text text-center">            
         </div>
         <div class="row">
             @foreach ($posts as $post)
-            <article class="col-xl-4 col-lg-6 col-sm-12 filter-item Consulting Growth">
+            <article class="col-xl-4 col-lg-6 col-sm-12 filter-item ">
                     <div class="gallery-item">
                         <div class="image-box"><img src="{{ !empty($post->gambar) ? url('images/post/').'/'.$post->gambar : url('images/post/').'/'.$post->kategori.'.png' }}" alt="">
                             <div class="overlay">
-                                <a class="link-btn" href="{{ url('post/').'/'.$post->id }}">
+                                <a class="link-btn" href="{{ url('post/detail').'/'.$post->id }}">
                                      <i class="fa fa-link"></i>
                                 </a>
                             </div>
@@ -110,19 +109,19 @@
                         <div class="image-content">
                             <div class="reting clearfix">
                                 <div class="float-left">
-                                    <p><i class="fa fa-folder" aria-hidden="true"></i> {{ $post->kategori }}</p> 
+                                    <p><a href="{{ url('post/kategori').'/'.$post->kategori }}"><i class="fa fa-folder" aria-hidden="true"></i> {{ $post->kategori }}</a></p> 
                                     <small>  
                                         @foreach ($post->tags as $tag)<i class="fa fa-hashtag" aria-hidden="true"></i>
-                                            {{  $tag->name }}
+                                            <a href="{{ url('post/tags').'/'.$tag->id }}">{{  $tag->name }}</a>
                                          @endforeach
                                     </small> 
                                 </div>
                             </div>
                             <div class="bottom-text">
-                                <h6><a href="{{ url('post').'/'.$post->id }}">{{ $post->judul}}</a></h6>
+                                <h6><a href="{{ url('post/detail').'/'.$post->id }}">{{ $post->judul}}</a></h6>
                                 {!! substr($post->isi,0,300)  !!} ...
                                 <div class="link-btn">
-                                    <a href="{{ url('post/').'/'.$post->id }}">Selengkapnya <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                    <a href="{{ url('post/detail').'/'.$post->id }}">Selengkapnya <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                             <div class="info clearfix">
@@ -132,133 +131,18 @@
                         </div>
                     </div>
                 </article>
-            @endforeach
-            {{-- <article class="col-xl-4 col-lg-6 col-sm-12 filter-item Consulting Growth">
-                <div class="gallery-item">
-                    <div class="image-box"><img src="images/gallery/7.jpg" alt="">
-                        <div class="overlay">
-                            <a class="link-btn" href="courses-single.html">
-                                 <i class="fa fa-link"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="image-content">
-                        <div class="reting clearfix">
-                            <div class="float-left">
-                                <p><i class="fa fa-folder" aria-hidden="true"></i> Kategori</p> 
-                                <p><i class="fa fa-hashtag" aria-hidden="true"></i> Tags</p> 
-                            </div>
-                        </div>
-                        <div class="bottom-text">
-                            <h6><a href="courses-single.html">Computer Management System with Infomatics</a></h6>
-                            <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                            <div class="link-btn">
-                                <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <div class="info clearfix">
-                            <div class="float-left"><p><i class="fa fa-calendar" aria-hidden="true"></i> 05 Mar 2018</p></div>
-                            <div class="float-right"><p><i class="fa fa-user" aria-hidden="true"></i> Admin</p></div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="col-xl-4 col-lg-6 col-sm-12 filter-item Consulting Growth">
-                <div class="gallery-item">
-                    <div class="image-box"><img src="images/gallery/7.jpg" alt="">
-                        <div class="overlay">
-                            <a class="link-btn" href="courses-single.html">
-                                <i class="fa fa-link"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="image-content">
-                        <div class="reting clearfix">
-                            <div class="float-left">
-                                <p><i class="fa fa-folder" aria-hidden="true"></i> Kategori</p>
-                            </div>
-                        </div>
-                        <div class="bottom-text">
-                            <h6><a href="courses-single.html">Computer Management System with Infomatics</a></h6>
-                            <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                            <div class="link-btn">
-                                <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <div class="info clearfix">
-                            <div class="float-left"><p><i class="fa fa-calendar" aria-hidden="true"></i> 05 Mar 2018</p></div>
-                            <div class="float-right"><p><i class="fa fa-user" aria-hidden="true"></i> Admin</p></div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="col-xl-4 col-lg-6 col-sm-12 filter-item Consulting Growth">
-                    <div class="gallery-item">
-                        <div class="image-box"><img src="images/gallery/7.jpg" alt="">
-                            <div class="overlay">
-                                <a class="link-btn" href="courses-single.html">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="image-content">
-                            <div class="reting clearfix">
-                                <div class="float-left">
-                                    <p><i class="fa fa-folder" aria-hidden="true"></i> Kategori</p>
-                                </div>
-                            </div>
-                            <div class="bottom-text">
-                                <h6><a href="courses-single.html">Computer Management System with Infomatics Computer Management System with Infomatics Computer Management System with Infomatics</a></h6>
-                                <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                                <div class="link-btn">
-                                    <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="info clearfix">
-                            <div class="float-left"><p><i class="fa fa-calendar" aria-hidden="true"></i> 05 Mar 2018</p></div>
-                            <div class="float-right"><p><i class="fa fa-user" aria-hidden="true"></i> Admin</p></div>
-                        </div>
-                    </div>
-                </div>
-            </article>  
-            <article class="col-xl-4 col-lg-6 col-sm-12 filter-item Consulting Growth"> 
-                        <div class="gallery-item">
-                            <div class="image-box"><img src="images/gallery/7.jpg" alt="">
-                                <div class="overlay">
-                                    <a class="link-btn" href="courses-single.html">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="image-content">
-                                <div class="reting clearfix">
-                                    <div class="float-left">
-                                        <p><i class="fa fa-folder" aria-hidden="true"></i> Kategori</p>
-                                    </div>
-                                </div>
-                                <div class="bottom-text">
-                                    <h6><a href="courses-single.html">Computer Management System with Infomatics</a></h6>
-                                    <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch.</p>
-                                    <div class="link-btn">
-                                        <a href="blog-single.html">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                                <div class="info clearfix">
-                                    <div class="float-left"><p><i class="fa fa-calendar" aria-hidden="true"></i> 05 Mar 2018</p></div>
-                                    <div class="float-right"><p><i class="fa fa-user" aria-hidden="true"></i> Admin</p></div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>      --}}    
-                   
+            @endforeach         
         </div>
         <div class="row">
             <div class="col-xl-12 col-md-12 col-sm-12 text-center">
                 <div class="link-btn">
-                    <a href="#" class="thm-btn bg-clr1">Semua Posting</a>
+                    <a href="{{ url('post/kategori').'/all' }}" class="thm-btn bg-clr1">Semua Posting</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+@endsection
+@section('content')
+    
 @endsection

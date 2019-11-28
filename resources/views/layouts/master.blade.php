@@ -48,27 +48,23 @@
             <div class="container clearfix">
                 <div class="left-side float-left">
                     <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="{{ url('https://id-id.facebook.com/stkipsuarbangli.ac.id/') }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>                                                                      
+                        <li><a href="{{ url('https://www.instagram.com/stkipsuar.bangli/') }}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="{{ url('https://twitter.com/stkipsuarbangli') }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
                 <div class="right-side float-right clearfix">
                     <ul class="top-info login-info float-left">
-                        <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
-                        <li>/</li>
-                        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Register</a></li>
+                        <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>                        
                     </ul>
-                    <div class="search-box float-right ">
+                    {{-- <div class="search-box float-right ">
                         <form method="post" action="index.html">
                             <div class="form-group">
                                 <input type="search" name="search" placeholder="Search..." required>
                                 <button type="submit"><i class="fa fa-search"></i></button>
                             </div>
                         </form>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>
@@ -659,9 +655,7 @@
 @include('layouts.footer')
 
 <!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html">
-    <span class="fa fa-angle-up"></span>
-</div>
+
 <!--End Scroll to top-->
 
 

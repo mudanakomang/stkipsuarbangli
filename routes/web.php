@@ -34,9 +34,14 @@ Route::group(['prefix' => 'profil'], function () {
     Route::get('kampus-stkip', function () {
         return view('profil.kampus_stkip');
     });
-    Route::get('vido-profil', function () {
+    Route::get('video-profil', function () {
         return view('profil.video_profil');
     });
+});
+Route::group(['prefix'=>'post'],function(){
+    Route::get('detail/{id}','PostsController@detail');
+    Route::get('kategori/{kategori}','PostsController@kategori');
+    Route::get('tags/{id}','PostsController@tags');
 });
 Auth::routes();
 

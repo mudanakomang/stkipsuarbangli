@@ -26,6 +26,7 @@
                                 <li><a href="{{ url('profil/profil-ketua-yayasan') }}">Profil Ketua Yayasan</a></li>
                                 <li><a href="{{ url('profil/profil-pejabat-struktural') }}">Profil Pejabat Struktural</a></li>
                                 <li><a href="{{ url('profil/kampus-stkip') }}">Kampus STKIP Suar Bangli</a></li>
+                                <li><a href="{{ url('profil/video-profil') }}">Video Profil STKIP Suar Bangli</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"><a href="#">Service</a>
