@@ -43,6 +43,17 @@ Route::group(['prefix'=>'post'],function(){
     Route::get('kategori/{kategori}','PostsController@kategori');
     Route::get('tags/{id}','PostsController@tags');
 });
+Route::group(['prefix'=>'prodi'],function(){
+    Route::get('pendidikan-bahasa-dan-sastra-indonesia',function(){
+        return view('prodi.bahasa_indonesia');
+    });
+    Route::get('pendidikan-bahasa-inggris',function(){
+        return view('prodi.bahasa_inggris');
+    });
+    Route::get('pendidikan-guru-sekolah-dasar',function(){
+        return view('prodi.pgsd');
+    });
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

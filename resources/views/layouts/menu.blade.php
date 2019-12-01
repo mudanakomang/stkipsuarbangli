@@ -2,7 +2,7 @@
     <div class="menu-style-two clearfix">
         <div class="menu-logo">
              <figure>
-                <a href="index.html"><img src="{{ asset('images/logo.jpg') }}" alt="Logo STKIP Suar Bangli"></a>
+             <a href="{{ url('/')}}"><img src="{{ asset('images/logo.jpg') }}" alt="Logo STKIP Suar Bangli"></a>
             </figure>
         </div>
         <div class="menu-area clearfix">
@@ -29,14 +29,11 @@
                                 <li><a href="{{ url('profil/video-profil') }}">Video Profil STKIP Suar Bangli</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#">Service</a>
+                        <li class="dropdown"><a href="#">Program Studi</a>
                             <ul>
-                                <li><a href="services.html">Service</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="single-product.html">Single Product</a></li>
-                                <li><a href="shop.html">Shop Page</a></li>
-                                <li><a href="cart.html">Cart Page</a></li>
-                                <li><a href="Checkout.html">Checkout Page</a></li>
+                            <li><a href="{{ url('prodi/pendidikan-bahasa-dan-sastra-indonesia') }}">Pendidikan Bahasa Dan Sastra Indonesia</a></li>
+                            <li><a href="{{ url('prodi/pendidikan-bahasa-inggris') }}">Pendidikan Bahasa Inggris</a></li>
+                            <li><a href="{{ url('prodi/pendidikan-guru-sekolah-dasar') }}">Pendidikan Guru Sekolah Dasar</a></li>                                
                             </ul>
                         </li>
                         <li class="dropdown"><a href="#">Coursse</a>
