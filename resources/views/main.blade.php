@@ -15,7 +15,7 @@
                         <div class="text">                           
                             <h6>Be A Quality And Trustworthy Campus</h6>
                         </div>
-                        <p>MEWUJUDKAN SEKOLAH TINGGI KEGURUAN DAN ILMU PENDIDIKAN (STKIP) SUAR BANGLI MENJADI LEMBAGA PENDIDIKAN TINGGI UNGGULAN, DI BIDANG TENAGA KEPENDIDIKAN PADA TAHUN 2021</p>
+                        <p>STKIP Suar Bangli adalah kampus generasi Milenial yang siap mencetak lulusan siap kerja dalam segala aspek bidang keahlian dengan kompetensi utama lulusan adalah bidang kependidikan, pariwisata, manajemen, technopreneur, dan bidang penunjang kegiatan pelestarian budaya dan tradisi. Tujuan utama STKIP Suar Bangli adalah menghasilkan lulusan yang berkualitas sehingga dapat dipercaya oleh masyarakat.  </p>
                         {{-- <div class="link-btn">
                             <a href="#" class="thm-btn bg-clr1">Read More</a>
                         </div> --}}
@@ -28,10 +28,24 @@
                         <img src="{{ asset('images/about.jpg')}}" alt="">
                     </figure>
                 </div>
-            </div>
+            </div>            
         </div>
     </div>
 </section>
+<section class="page-title" >
+        <div class="container clearfix">
+            <div class="title text-center">
+                <h2>Daftar Sekarang</h2>
+            </div>
+            <p></p>
+            <p></p>
+            <ul class="title-manu text-center">
+                <div class="link-btn">
+                    <a href="#" class="thm-btn bg-clr1">Informasi & Pendaftaran Online</a>
+                </div>
+            </ul>         
+        </div>
+</section> 
 @endsection
 @section('fakultas')
 <section class="team-section sp-five">
@@ -40,7 +54,7 @@
             <h4>Program Studi Kami</h4>
         </div>
         <div class="title-text text-center">
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper vehicula nisi, posuere blandit libero dictum sed. Vestibulum mattis pulvinar sapien, sit amet rhoncus nisl vulputate non. Praesent laoreet diam sit amet arcu auctor, id posuere turpis iaculis. Quisque lorem sapien, mollis et iaculis et, eleifend nec leo. Donec molestie porta nunc, a hendrerit magna tempor in. Aenean sagittis, lorem vel fringilla sollicitudin, dolor sapien aliquam tellus, a ornare quam lacus in lacus. Donec pellentesque urna sit amet luctus lobortis. Morbi euismod augue id orci consectetur vestibulum. Phasellus ultricies quis felis sit amet tincidunt.</span>
+            <span></span>
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">

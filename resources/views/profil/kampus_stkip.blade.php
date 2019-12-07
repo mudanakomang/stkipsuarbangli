@@ -3,12 +3,12 @@
 <section class="page-title" >
     <div class="container clearfix">
         <div class="title pull-left">
-            <h2>Profil Ketua Yayasan</h2>
+            <h2>Profil Kampus</h2>
         </div>
         <ul class="title-manu pull-right">
             <li><a href="{{  url('/') }}">home</a></li>
             <li><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
-            <li>Profil Ketua Yayasan</li>
+            <li>Profil Kampus</li>
         </ul>         
     </div>
 </section>    
@@ -17,27 +17,89 @@
 <section class="blog-single-section sp-five">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12 col-sm-12">
+                <div class="col-xl-8 col-sm-12">
                     <div class="left-side-area">
                         <div class="blog-item-one">
                             <div class="image-box">
                                 <figure>
-                                <img src="{{ asset('images/profil/ketua-yayasan.jpg') }}" alt="Ketua Yayasan">
+                                <img src="{{ asset('images/profil/Page-5-Image-9.jpg') }}" alt="Rancangan Bangunan Rektorat  STKIP Suar Bangli1">
+                                </figure>                                                                
+                            </div>
+                            <div class="image-box">
+                                <figure>
+                                    <img src="{{ asset('images/profil/Page-5-Image-11.jpg') }}" alt="Rancangan Bangunan Rektorat  STKIP Suar Bangli2">
                                 </figure>
-                                
                             </div>
                             <div class="image-text">
-                                <h6>Think of me once in awhile</h6>
-                                <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch and when the odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world don't move to the beat of just one drum what might be right for you may not be right for some it is time to play the music it is time to light the lights.</p>
-                                <p>The one day when the lady met this fellow and they knew it was much more than a hunch and when the odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world don't move to the beat of just you may not be right for some it is time to play the music it is time to light the lights.</p>
-                                <p>All share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch and when the odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world don't move to the beat of just one drum.</p>
+                                <h6>Rancangan Bangunan Rektorat  STKIP Suar Bangli</h6>
                             </div>
                         </div>
                       
                         <div class="content-text">
-                            <p>The one day when the lady met this fellow and they knew it was much more than a hunch and when the odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world don't move to the beat of just you may not be right for some it is time to play the music it is time to light the lights.</p>
-                            <p>The odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world of a might be right for you may not be right for some it is time to play the music it is time to light the lights.</p>
-                        </div>                                              
+                        </div>
+                        <div class="media-links-single"></div> 
+                        <div class="blog-item-one">
+                                <div class="image-box">
+                                    <figure>
+                                    <img src="{{ asset('images/profil/Page-6-Image-13.jpg') }}" alt="Rancangan Hotel STKIP Suar Bangli1">
+                                    </figure>                                                                
+                                </div>
+                                <div class="image-box">
+                                    <figure>
+                                        <img src="{{ asset('images/profil/Page-6-Image-14.jpg') }}" alt="Rancangan Hotel STKIP Suar Bangli2">
+                                    </figure>
+                                </div>
+                                <div class="image-text">
+                                    <h6>Rancangan Hotel STKIP Suar Bangli </h6>
+                                </div>
+                            </div>
+                          
+                            <div class="content-text">
+                            </div>
+                            <div class="media-links-single"></div>                         
+                        <div class="blog-item-one">                                
+                                <div class="image-box">
+                                    <figure>
+                                        <img src="{{ asset('images/profil/Page-7-Image-16.jpg') }}" alt="Rancangan  Ruangan Aula 1">
+                                    </figure>
+                                </div>
+                                <div class="image-box">
+                                        <figure>
+                                            <img src="{{ asset('images/profil/Page-8-Image-17.jpg') }}" alt="Rancangan  Ruangan Aula 2">
+                                        </figure>
+                                    </div>
+                                <div class="image-text">
+                                    <h6>Rancangan  Ruangan Aula   </h6>
+                                </div>
+                            </div>
+                                  
+                            <div class="content-text">
+                            </div>
+                            <div class="media-links-single"></div>
+                            <div class="blog-item-one">                                
+                                    <div class="image-box">
+                                        <figure>
+                                            <img src="{{ asset('images/profil/Page-9-Image-18.jpg') }}" alt="Rancangan Ruangan Laboratorium Komputer  1">
+                                        </figure>
+                                    </div>
+                                    <div class="image-box">
+                                            <figure>
+                                                <img src="{{ asset('images/profil/Page-9-Image-19.jpg') }}" alt="Rancangan Ruangan Laboratorium Komputer  2">
+                                            </figure>
+                                        </div>
+                                    <div class="image-box">
+                                            <figure>
+                                                <img src="{{ asset('images/profil/Page-10-Image-20.jpg') }}" alt="Rancangan Ruangan Laboratorium Komputer  2">
+                                            </figure>
+                                            </div>
+                                    <div class="image-text">
+                                        <h6>Rancangan Ruangan Laboratorium Komputer  </h6>
+                                    </div>
+                                </div>
+                                      
+                                <div class="content-text">
+                                </div>
+                                <div class="media-links-single"></div>                                                                                   
                     </div>
                 </div>           
             </div>

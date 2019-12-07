@@ -20,10 +20,10 @@
                 <div class="col-xl-12 col-sm-12">
                     <div class="wellcome-left-colmun">
                         <div class="sec-title pb-one">
-                            <h4>REASON 1</h4>
+                            <h4>Mengapa STKIP Suar Bangli</h4>
                         </div>
                         <div class="content-text">                           
-                           <p>TEXT</p>                          
+                           <p>STKIP Suar Bangli adalah kampus yang telah terakreditasi dengan peringkat Baik oleh Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT). Untuk mewujudkan lulusan yang siap bekerja dalam bidang bidang kependidikan, pariwisata, manajemen, technopreneur, dan bidang penunjang pelestarian budaya dan tradisi STKIP Suar Bangli telah memiliki tiga program studi yang telah terakreditasi dengan nilai Baik dari BAN-PT. Selain itu, untuk menghasilkan lulusan berkualitas pada bidang pariwisata STKIP Suar Bangli memiliki Sekolah Vokasi Bali International Tourism School (BITS) Bali. Untuk menunjang SDM yang berkualitas dalam bidang pelestarian budaya dan tradisi, STKIP Suar Bangli telah memiliki sekolah Non-Formal berbentuk Pasramaan Markandeya Bali.  </p>                          
                         </div>
                     </div>                                          
                 </div>            

@@ -17,26 +17,29 @@
 <section class="blog-single-section sp-five">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12 col-sm-12">
+                <div class="col-xl-8 col-sm-8">
                     <div class="left-side-area">
                         <div class="blog-item-one">
                             <div class="image-box">
                                 <figure>
-                                <img src="{{ asset('images/profil/ketua-yayasan.jpg') }}" alt="Ketua Yayasan">
+                                <img src="{{ asset('images/profil/Page-1-Image-1.jpg') }}" alt="Ketua Yayasan">
                                 </figure>
                                 
                             </div>
                             <div class="image-text">
-                                <h6>Think of me once in awhile</h6>
-                                <p>These days are all share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch and when the odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world don't move to the beat of just one drum what might be right for you may not be right for some it is time to play the music it is time to light the lights.</p>
-                                <p>The one day when the lady met this fellow and they knew it was much more than a hunch and when the odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world don't move to the beat of just you may not be right for some it is time to play the music it is time to light the lights.</p>
-                                <p>All share them with me oh baby said inspet Californy till the one day when the lady met this fellow and they knew it was much more than a hunch and when the odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world don't move to the beat of just one drum.</p>
+                                <h6>Drs. I Wayan Soklat Arsana, M.M,M.AP.</h6><p></p>
+                                <h6>Tempat & Tanggal Lahir</h6>
+                                <p>Bangli, 12 Desember 1957 </p>
+
+                                <h6>Pendidikan</h6>
+                                <p>S1: Ilmu Administrasi Negara (1988) </p>
+                                <p>S2: Magister Ilmu Manajemen (2007) </p>
+                                <p>Magister Ilmu Administrasi (2011) </p>
                             </div>
                         </div>
                       
                         <div class="content-text">
-                            <p>The one day when the lady met this fellow and they knew it was much more than a hunch and when the odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world don't move to the beat of just you may not be right for some it is time to play the music it is time to light the lights.</p>
-                            <p>The odds are against him and their dangers work to do you bet your life Speed Racer he will see it through now the world of a might be right for you may not be right for some it is time to play the music it is time to light the lights.</p>
+                            
                         </div>                                              
                     </div>
                 </div>           

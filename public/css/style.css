@@ -2172,7 +2172,7 @@ Main Slider Banner
 }
 
 .blog-item-one .image-box {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	position: relative;
 	overflow: hidden;
@@ -5378,7 +5378,11 @@ Main Slider Banner
 	border-top: 1px solid #e6e6e6;
 	border-bottom: 1px solid #e6e6e6;
 }
-
+.media-links-single{
+	padding: 20px 0px;
+	margin: 45px 0px;
+	border-top: 1px solid #e6e6e6;
+}
 .media-links li {
 	display: inline-block;
 }
