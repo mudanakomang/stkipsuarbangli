@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="{{  asset('css/responsive.css') }}">
     <!-- Favicon -->
     <link rel="stylesheet" href="{{ asset('css/tagsinput.css') }} "> 
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-datetimepicker.min.css') }} "> 
 
 
     <link rel="apple-touch-icon" sizes="57x57" href="{{  asset('images/favicon/apple-icon-57x57.png') }}">
@@ -155,6 +156,8 @@
 <!-- thm custom script -->
 <script src="{{  asset('js/custom.js') }}"></script>
 <script src="{{  asset('js/tagsinput.js') }}"></script>
+<script src="{{ asset('js/moment.min.js') }}"></script>
+<script src="{{  asset('js/bootstrap-datetimepicker.min.js') }}"></script>
 
 
 @yield('script')

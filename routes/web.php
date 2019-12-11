@@ -54,6 +54,24 @@ Route::group(['prefix'=>'prodi'],function(){
         return view('prodi.pgsd');
     });
 });
+Route::get('pendaftaran',function(){
+    return view('pendaftaran.online');  
+});
+Route::get('pendaftaran/info',function(){
+    $file = public_path().'/files/pendaftaran/'.'Alur Pendaftaran Mahasiswa Baru.pdf';
+    
+    return response()->download($file);
+});
+Route::group(['prefix'=>'repository'],function(){
+    Route::get('skripsi','SkripsiController@index')->name('skripsi');
+    Route::post('skripsi/cari','SkripsiController@cari');
+    Route::get('skripsi/arsip/{tahun}','SkripsiController@arsip');
+    Route::get('skripsi/detail/{id}','SkripsiController@detail');
+    Route::get('skripsi/download/{type}/{id}','SkripsiController@download');
+});
+Route::get('galeri','GaleryController@index');
+Route::get('alumni','AlumniController@index');
+Route::post('getalumni','AlumniController@getalumni')->name('getalumni');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

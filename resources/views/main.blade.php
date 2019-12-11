@@ -41,7 +41,7 @@
             <p></p>
             <ul class="title-manu text-center">
                 <div class="link-btn">
-                    <a href="#" class="thm-btn bg-clr1">Informasi & Pendaftaran Online</a>
+                    <a href="{{ url('pendaftaran') }}" class="thm-btn bg-clr1">Pendaftaran Online</a>
                 </div>
             </ul>         
         </div>

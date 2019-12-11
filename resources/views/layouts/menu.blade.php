@@ -36,26 +36,16 @@
                             <li><a href="{{ url('prodi/pendidikan-guru-sekolah-dasar') }}">Pendidikan Guru Sekolah Dasar</a></li>                                
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#">Coursse</a>
-                            <ul>
-                                <li><a href="courses-grid.html">Courses Grid</a></li>
-                                <li><a href="courses-list.html">Courses list</a></li>
-                                <li><a href="courses-single.html">Courses Single</a></li>
-                            </ul>
+                        <li ><a href="{{ url('pendaftaran') }}">Pendaftaran</a>                            
                         </li>
-                        <li class="dropdown"><a href="#">Events</a>
+                        <li class="dropdown"><a href="#">Repository</a>
                             <ul>                                
-                                <li><a href="event.html">Events</a></li>
-                                <li><a href="event-single.html">Events Single</a></li>
+                                <li><a href="{{  url('repository/skripsi') }}">Skripsi</a></li>
+                                <li><a href="{{ url('https://jurnal.stkipsuarbangli.ac.id/') }}" target="_blank">Jurnal</a></li>                               
                             </ul>
-                        </li>
-                        <li class="dropdown"><a href="#">Blog</a>
-                            <ul>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-single.html">Blog Single</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contactus.html">Contact Us</a></li>
+                        </li>                                               
+                        <li><a href="{{ url('galeri') }}">Galeri</a></li>
+                        <li><a href="{{ url('alumni') }}">Alumni</a></li>                        
                     </ul>
                 </div>
             </nav>
