@@ -27,29 +27,35 @@
                             <div class="login-area two">
                                 <div class="sec-title-one pb-one">
                                     <h6>Cari Alumni</h6>
-                                </div>
-                              
-                                   
+                                </div>                                                              
                                     <div class="form-group">
-                                        {!! Form::text('nama',null,['class'=>'timepicker','placeholder'=>'Nama Alumni','autocomplete'=>'off']) !!}                                       
-                                    </div>                                
-                                    <div class="link-btn">
-                                            <a href="javascript:void(0)" class="thm-btn bg-clr1" onclick="$('#cariskripsi').submit()">Cari <i class="fa fa-search"></i></a>
-                                    </div>                               
-                              
+                                        {!! Form::text('nama',null,['class'=>'timepicker','placeholder'=>'Nama Alumni','autocomplete'=>'off','id'=>'nama']) !!}                                       
+                                    </div>                                                                                                                           
                             </div>
                             <div class="side-menu">
                                 <div class="item-one">
                                     <div class="sec-title-one pb-one">
-                                        <h6>Arsip</h6>
+                                        <h6>Cari Berdasarkan Jurusan</h6>
                                     </div>
                                     <ul class="side-bar-menu">
-                                            {{-- @foreach($tahun as $th)
-                                                <li> <a href="{{ url('repository/skripsi/arsip').'/'.$th->tahun }}"> <p style="font-size:1.2em">{{ $th->tahun }} <i class="fa fa-search text-success"></i></p> </a></li>
-                                             @endforeach                                                                                                       --}}
+                                        <div class="form-group">
+                                        {!! Form::select('jurusan',[''=>'Pilih Jurusan']+\App\Alumni::groupBy('jurusan')->pluck('jurusan','jurusan')->all(),null,['id'=>'jurusan']) !!}                                                                                                                                                 
+                                        </div>
                                     </ul>
                                 </div>                                                                          
-                            </div>          
+                            </div>  
+                            <div class="side-menu">
+                                <div class="item-one">
+                                    <div class="sec-title-one pb-one">
+                                        <h6>Cari Berdasarkan Periode</h6>
+                                    </div>
+                                    <ul class="side-bar-menu">
+                                        <div class="form-group">
+                                            {!! Form::select('jurusan',[''=>'Pilih Periode']+\App\Alumni::groupBy('periode')->pluck('periode','periode')->all(),null,['id'=>'periode']) !!}                                                                                                                                                 
+                                        </div>                                                                                                   
+                                    </ul>
+                                </div>                                                                          
+                            </div>         
                         </div>
                     </div> 
                     <div id="paging">
@@ -67,6 +73,15 @@
 @endsection
 @section('script')
     <script>
+        $('#nama').on('keyup paste ',function(){
+            getPageData()
+        })
+        $('#jurusan').on('change',function(){
+            getPageData()
+        })
+        $('#periode').on('change',function(){
+            getPageData()
+        })
         function getNext(page,last){            
             var nextPage=parseFloat(page)+1
           if(parseFloat(page)==parseFloat(last)){
@@ -75,18 +90,29 @@
             getPageData(nextPage)
           }
         }
+        function getPrev(page){           
+            var prevPage=parseFloat(page)-1
+            if(parseFloat(page)==1){
+                getPageData()
+            }else{
+                getPageData(prevPage)
+            }
+        }
         function getPageData(page=1){
             $.ajax({
                url:'{{ route('getalumni') }}',
                type:'POST',
                data:{
                    _token:'{{ csrf_token() }}',
-                   page:page,                  
+                   page:page, 
+                   nama:$('#nama').val(),
+                   jurusan:$('#jurusan').val(), 
+                   periode:$('#periode').val()               
                },success:function(v){                                                  
                       console.log(v)
                       var currentp=v['data']['current_page'] 
                       $('#paging ul').empty()          
-                       var prev='<li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>'
+                       var prev='<li><a href="javascript:void(0)" onclick="getPrev('+currentp+')"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>'
                        $('#paging ul').append(prev)                
                        for(var p=1;p<=v['data']['last_page'];p++){
                            var li=''
