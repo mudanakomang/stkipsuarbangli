@@ -101,7 +101,6 @@
 </section>
 @endsection
 @section('posts')
-<div class="form-group">
 <section class="blog-section sp-five">
     <div class="container">
         <div class="sec-title-two pb-one text-center">
@@ -156,7 +155,4 @@
         </div>
     </div>
 </section>
-@endsection
-@section('content')
-    
 @endsection

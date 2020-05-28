@@ -17,15 +17,15 @@
 <section class="blog-single-section sp-five">
         <div class="container">
             <div class="row">
-                    <div class="col-xl-8 col-sm-12">
+                    <div class="col-xl-12 col-sm-12">
                             <div class="left-side-area">
                                 <div class="row">
                                     <div class="col-xl-6 col-md-6 col-sm-12">
-                                        <div class="blog-item-one">
-                                            <div class="image-box">
+                                        <div class="team-item-one text-center">
+                                            <div class="image-box-struktural">
                                                 <figure>
-                                                    <img src="{{ asset('images/profil/Page-2-Image-4.jpg') }}" alt="Ketua STKIP Suar Bangli">
-                                                </figure>                                                
+                                                   <img src="{{ asset('images/profil/Page-2-Image-4.jpg') }}" alt="Ketua STKIP Suar Bangli">
+                                                </figure>
                                             </div>
                                             <div class="image-text">
                                                 <h6>Ketua STKIP Suar Bangli</h6>
@@ -39,10 +39,10 @@
                                                 <p>S2: Pendidikan Bahasa (2013) </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>                                                                      
                                     <div class="col-xl-6 col-md-6 col-sm-12">
-                                        <div class="blog-item-one">
-                                            <div class="image-box">
+                                        <div class="team-item-one text-center">
+                                            <div class="image-box-struktural">
                                                 <figure>
                                                     <img src="{{ asset('images/profil/Page-2-Image-3.jpg') }}" alt="Wakil Ketua I STKIP Suar Bangli ">
                                                 </figure>                                                
@@ -61,8 +61,8 @@
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-md-6 col-sm-12">
-                                        <div class="blog-item-one">
-                                            <div class="image-box">
+                                        <div class="team-item-one text-center">
+                                            <div class="image-box-struktural">
                                                 <figure>
                                                     <img src="{{ asset('images/profil/Page-2-Image-2.jpg') }}" alt="Wakil Ketua II STKIP Suar Bangli">
                                                 </figure>                                            
@@ -81,8 +81,8 @@
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-md-6 col-sm-12">
-                                        <div class="blog-item-one">
-                                            <div class="image-box">
+                                        <div class="team-item-one text-center">
+                                            <div class="image-box-struktural">
                                                 <figure>
                                                         <img src="{{ asset('images/profil/Page-3-Image-7.jpg') }}" alt="Wakil Ketua III STKIP Suar Bangli">
                                                 </figure>                                               
@@ -101,8 +101,8 @@
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-md-6 col-sm-12">
-                                        <div class="blog-item-one">
-                                            <div class="image-box">
+                                        <div class="team-item-one text-center">
+                                            <div class="image-box-struktural">
                                                 <figure>
                                                         <img src="{{ asset('images/profil/Page-3-Image-6.jpg') }}" alt="Ketua Program Studi Pendidikan Bahasa dan Sastra Indonesia">
                                                 </figure>                                               
@@ -121,8 +121,8 @@
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-md-6 col-sm-12">
-                                            <div class="blog-item-one">
-                                                <div class="image-box">
+                                            <div class="team-item-one text-center">
+                                                <div class="image-box-struktural">
                                                     <figure>
                                                             <img src="{{ asset('images/profil/Page-3-Image-5.jpg') }}" alt="    Ketua Program Studi Pendidikan Bahasa Inggris ">
                                                     </figure>                                               
@@ -141,8 +141,8 @@
                                             </div>
                                     </div>
                                     <div class="col-xl-6 col-md-6 col-sm-12">
-                                        <div class="blog-item-one">
-                                            <div class="image-box">
+                                        <div class="team-item-one text-center">
+                                            <div class="image-box-struktural">
                                                 <figure>
                                                     <img src="{{ asset('images/profil/Page-4-Image-8.jpg') }}" alt="Ketua Program Studi Pendidikan Guru Sekolah Dasar">
                                                 </figure>                                               
