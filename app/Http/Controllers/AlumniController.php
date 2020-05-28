@@ -21,6 +21,8 @@ class AlumniController extends Controller
             $q->where('nama','LIKE',"%$request->nama%");
         })->when($request->nama==null  && $request->jurusan==null  &&  $request->periode!=null,function($q) use ($request){
             $q->where('periode','=',"$request->periode");
+        })->when($request->nama==null && $request->jurusan !=null && $request->periode == null , function($q) use ($request){
+            $q->where('jurusan','=',"$request->jurusan");
         })->when($request->nama==null  && $request->jurusan!=null  &&  $request->periode!=null,function($q) use ($request){
             $q->where('jurusan','=',"$request->jurusan")->where('periode','=',"$request->periode");
         })->when($request->nama!=null  && $request->jurusan==null  &&  $request->periode!=null,function($q) use ($request){
