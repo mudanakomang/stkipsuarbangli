@@ -24,9 +24,13 @@
                             <h6 class="">Alur Pendaftaran Mahasiswa Baru</h6>                            
                         </div> --}}
                         <div class="text-center">
-                             <figure>
+                             {{-- <figure>
                                 <img src="{{ asset('images/pendaftaran/alur pendaftaran.jpg') }}" alt="Alur Pendaftaran" width="80%">
-                            </figure>                                                                
+                            </figure>                                                                 --}}
+                            <video width="320" height="240" controls>
+                                <source src="{{URL::asset("videos/STKIP SUAR BANGLI.mp4")}}" type="video/mp4">
+                            </video>
+
                         </div>    
                     </div>
                     <div class="blog-item-one">
