@@ -24,11 +24,12 @@
                             <h6 class="">Alur Pendaftaran Mahasiswa Baru</h6>                            
                         </div> --}}
                         <div class="text-center">
-                             {{-- <figure>
-                                <img src="{{ asset('images/pendaftaran/alur pendaftaran.jpg') }}" alt="Alur Pendaftaran" width="80%">
-                            </figure>                                                                 --}}
-                            <video width="320" height="240" controls>
-                                <source src="{{URL::asset("videos/STKIP SUAR BANGLI.mp4")}}" type="video/mp4">
+{{--                              <figure>--}}
+{{--                                <img src="{{ asset('images/pendaftaran/alur pendaftaran.jpg') }}" alt="Alur Pendaftaran" width="80%">--}}
+{{--                            </figure>--}}
+
+                            <video width="80%" preload="true" controls autoplay="autoplay" loop="loop" >
+                                <source src="{{ asset('files/pendaftaran/alur_pendaftaran.mp4')}}" type="video/mp4">
                             </video>
 
                         </div>    
