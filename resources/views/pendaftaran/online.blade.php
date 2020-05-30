@@ -28,7 +28,7 @@
 {{--                                <img src="{{ asset('images/pendaftaran/alur pendaftaran.jpg') }}" alt="Alur Pendaftaran" width="80%">--}}
 {{--                            </figure>--}}
 
-                            <video width="80%" preload="true" controls autoplay="autoplay" loop="loop" >
+                            <video width="90%" preload="true" controls autoplay="autoplay" loop="loop" >
                                 <source src="{{ asset('files/pendaftaran/alur_pendaftaran.mp4')}}" type="video/mp4">
                             </video>
 
