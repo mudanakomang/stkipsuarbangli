@@ -13,7 +13,7 @@
                                     <span class="flaticon-home-button"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <p><a href="{{ url('https://goo.gl/maps/v4AuQSP9yrVy75vH6') }}">Jln. Brigjen Ngurah Rai No.55 Gedung Barat,
+                                    <p><a href="{{ url('https://goo.gl/maps/v4AuQSP9yrVy75vH6') }}">Jln. Muhamad Hatta,
                                        LC Subak Aya Bangli, 80613</a></p>
                                 </div>
                             </li>
